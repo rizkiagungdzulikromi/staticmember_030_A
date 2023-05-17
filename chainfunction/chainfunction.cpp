@@ -14,3 +14,13 @@ public:
     }
 } bukunya;
 
+int main() {
+    //normal
+    //bukunya.setJudul("matematika");
+    //cout << bukunya.getJudul();
+
+    //sederhana
+    cout << bukunya.setJudul("matematika").getJudul(); //chain func
+
+    return 0;
+}
